@@ -1,0 +1,15 @@
+name: InterAuction
+version: 1.0.0
+main: net.intertime.auction.InterAuction
+api-version: '1.21'
+author: InterTime
+description: Аукціон InterTime
+softdepend: [InterCasino, Vault]
+commands:
+  ah:
+    description: Відкрити аукціон
+    aliases: [auction, auk]
+permissions:
+  intertime.auction.admin:
+    description: Видача монет (внутрішній баланс)
+    default: op

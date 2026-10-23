@@ -1,0 +1,15 @@
+# InterAuction - InterTime
+
+# Звідки брати гроші:
+#   auto        - InterCasino (монети), якщо немає - Vault, якщо немає - внутрішній баланс
+#   intercasino - тільки монети InterCasino
+#   vault       - тільки Vault
+#   internal    - власний баланс аукціону (/ah give <гравець> <сума>)
+economy: auto
+internal-start-balance: 0
+
+auction:
+  max-lots: 10            # максимум лотів на гравця
+  duration-hours: 48      # скільки живе лот
+  min-price: 1
+  max-price: 1000000000
